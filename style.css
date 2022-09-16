@@ -50,6 +50,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  max-width: 1600px;
+  margin: auto;
 }
 
 main {
@@ -62,11 +64,6 @@ main {
   padding: 0px 15px;
 }
 /* ----- */
-.wrapper {
-  width: 1600px;
-  margin: auto;
-}
-
 .header {
   height: 95px;
   background-color: black;
@@ -93,7 +90,10 @@ main {
   color: #ffffff;
 }
 
-/* TO DO: hovers */
+.header__nav ul li a:hover {
+  opacity: 0.5;
+}
+
 .webdev {
   background-image: url(./src/bg-image.png);
   background-repeat: no-repeat;
@@ -156,11 +156,19 @@ main {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.button:hover {
+  background: #009cc2;
+}
 .webdev__socials {
   display: flex;
   justify-content: space-between;
   width: 170px;
   margin: auto;
+}
+
+.socials__icon:hover {
+  opacity: 0.5;
 }
 
 .represent-idea {
@@ -230,7 +238,9 @@ main {
   padding-bottom: 20px;
   padding-left: 1248px;
 }
-
+.slider__arrow:hover {
+  opacity: 0.5;
+}
 .community__slider-numbers {
   margin: 0 14px;
 }
@@ -373,9 +383,11 @@ main {
 
 .input__button {
   width: 66px;
-  background-image: url(./src/check-icon.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #00afdb;
+}
+
+.input__button:hover {
+  background-color: #009cc2;
 }
 
 .download {
@@ -464,12 +476,9 @@ main {
   justify-content: space-between;
   padding: 59px 97px 80px 133px;
 }
-.footer__nav {
-}
 
 .footer__nav ul {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   margin: auto;
 }
@@ -485,6 +494,13 @@ main {
   line-height: 140%;
 }
 
+.footer__nav ul li a:hover {
+  opacity: 0.5;
+}
+
+.footer__logo:hover {
+  opacity: 0.5;
+}
 .footer__info {
   margin-right: 63px;
   color: #818181;
