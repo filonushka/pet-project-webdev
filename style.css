@@ -105,8 +105,13 @@ main {
 
 .webdev__content {
   padding-top: 135px;
-  padding-bottom: 183px;
+  padding-bottom: 90px;
   margin: auto;
+}
+
+.webdev__text {
+  margin: auto;
+  padding-bottom: 183px;
 }
 .webdev__block-text {
   justify-content: center;
@@ -220,12 +225,13 @@ main {
   background-color: #f5f6f7;
 }
 
-.community__container {
-}
 .community__content {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 82px;
+  padding-left: 239px;
+  margin: auto;
+  /* width: 1331px; */
 }
 .community__slider {
   font-weight: 400;
@@ -236,7 +242,8 @@ main {
   text-align: right;
   color: #373737;
   padding-bottom: 20px;
-  padding-left: 1248px;
+  padding-right: 269px;
+  justify-content: flex-end;
 }
 .slider__arrow:hover {
   opacity: 0.5;
@@ -247,7 +254,6 @@ main {
 .community__info {
   display: flex;
   align-items: center;
-  padding-left: 239px;
 }
 .community__text {
   width: 298px;
@@ -289,7 +295,8 @@ main {
 }
 
 .community__slider__item {
-  margin-right: 30px;
+  margin-right: 15px;
+  width: 407px;
 }
 
 .implement-code {
@@ -474,17 +481,18 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 59px 97px 80px 133px;
+  padding-top: 59px;
+  padding-bottom: 80px;
 }
 
 .footer__nav ul {
   display: flex;
   align-items: center;
   margin: auto;
+  margin-left: 27px;
 }
 
 .footer__nav ul li {
-  margin-right: 20px;
 }
 
 .footer__nav ul li a {
@@ -515,4 +523,5 @@ main {
   width: 8px;
   height: 0px;
   transform: rotate(-90deg);
+  margin: 0px 10px;
 }
